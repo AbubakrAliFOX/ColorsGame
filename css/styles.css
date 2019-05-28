@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #1B1B1B;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.gameBody, footer {
+	opacity: 0.1;
+	text-transform: uppercase;
+	transition: all 1s;
+}
+
+.colorContainer {
+	max-width: 600px;
+	margin: 20px auto;
+
+}
+
+.colorSquare {
+	background-color: blue;
+	padding: 10%;
+	margin: 1.66%;
+	float: left;
+	width: 30%;
+	border-radius: 15%;
+	height: 145px;
+	transition: background 0.6s;
+
+}
+
+.stripe {
+	color: black;
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+button #hard {
+	background: cadetblue;
+	color: white;
+}
+
+#header {
+	text-align: center;
+	background-color: cadetblue;
+	margin: 0;
+	line-height: 1.2;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 150%
+}
+
+.stripe button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: cadetblue;
+	letter-spacing: 2px;
+	font-size: inherit;
+	margin: 0 2px;
+	padding: 0 2px;
+	font-weight: 700;
+	transition: all 0.4s;
+	outline: none;
+}
+
+.stripe button:hover {
+	color: white;
+	background-color: cadetblue;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+.mainModel {
+	position: fixed;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+	max-width: 700px;
+	background: white;
+	padding: 10px;
+	color: rgb(46, 39, 39);
+	transition: all 1s;
+	overflow: scroll;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+.mainModel h1 {
+	text-align: center;
+}
+
+.mainModel p, .mainModel h3 {
+	padding-left: 10px;
+}
+
+#play {
+	border: 1px solid cadetblue;
+	padding: 10px;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: cadetblue;
+	letter-spacing: 2px;
+	font-size: inherit;
+	font-weight: 700;
+	transition: all 0.4s;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	position: inline-block;
+	margin: 100px auto 0 auto;
+}
+
+#play:hover {
+	color: white;
+	background: cadetblue;
+}
+
+footer h3 {
+	margin-top: 600px;
+	margin-bottom: 0;
+	clear: both;
+	background: white;
+	padding: 4px;
+	color: cadetblue;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+footer span {
+	padding-left: 5px;
+	color: darkblue;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: cadetblue;
+}
